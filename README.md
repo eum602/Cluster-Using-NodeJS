@@ -8,7 +8,10 @@
 node index.js
 ```
 ```
- Note:
+ Note:In this example the cluster module is used to run the server code in more than one CPU.
+ .
+ .
+ .
  if(cluster.isMaster){
 
         //Fork the process                
